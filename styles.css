@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.left-header, .right-header{
+    background-color: bisque;
+    height: 50px;
+    width: 90px;
+    
+}
+
+.left-header{
+    float: left;
+    margin: 10px auto auto 20px;
+}
+
+.right-header{
+    float: right;
+    margin: 10px 20px auto auto;
+}
+
+.center-header{
+    text-align: center;
+}
+
+.nav{
+    clear: both;
+    border-bottom: 2px solid black ;
+    
+}
+
+.nav-box{
+
+    background-color: bisque;
+    width: 100px;
+    height: 20px;
+    border-radius: 45%;
+}
+
+.nav-lateralBorder{
+    display: inline-block;
+    padding: 10px;
+    border-right: 2px solid black;
+}
